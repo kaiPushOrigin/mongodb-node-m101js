@@ -1,6 +1,6 @@
-HOMEWORK: HOMEWORK 1.1
+<h2>HOMEWORK: HOMEWORK 1.1<h2>
 
-QUESTION:
+<h3>QUESTION: </h3>
 
 Install MongoDB on your computer and run it on the standard port.
 
@@ -16,7 +16,7 @@ Note you will need to have your path setup correctly to find mongorestore.
 Now, using the Mongo shell, perform a findOne on the collection called hw1_1 in the database m101. That will return one document. Please provide the value corresponding to the "answer" key (without the surrounding quotes) from the document returned.
 
 
-ANSWER:
+<h3>ANSWER: </h3>
 
 Hello from MongoDB
 
