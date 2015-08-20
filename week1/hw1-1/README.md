@@ -1,6 +1,6 @@
 <h2>HOMEWORK: HOMEWORK 1.1<h2>
 
-<h3>QUESTION: </h3>
+<b>QUESTION: </b>
 
 Install MongoDB on your computer and run it on the standard port.
 
@@ -16,8 +16,8 @@ Note you will need to have your path setup correctly to find mongorestore.
 Now, using the Mongo shell, perform a findOne on the collection called hw1_1 in the database m101. That will return one document. Please provide the value corresponding to the "answer" key (without the surrounding quotes) from the document returned.
 
 
-<h3>ANSWER: </h3>
+<b>ANSWER: </b>
 
 Hello from MongoDB
 
-![alt tag](https://github.com/kashifkai28/mongoDB-nodeJS-courseM101JS/blob/master/week1/hw1/answer.PNG)
+![alt tag](https://github.com/kashifkai28/mongoDB-nodeJS-courseM101JS/blob/master/week1/hw1-1/answer.PNG)
