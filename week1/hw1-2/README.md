@@ -20,3 +20,4 @@ If you have the mongodb driver installed correctly, this will print out the mess
 
 <h3>ANSWER: </h3>
 I like kittens
+![alt tag](https://github.com/kashifkai28/mongoDB-nodeJS-courseM101JS/blob/master/week1/hw1-2/Capture.PNG)
