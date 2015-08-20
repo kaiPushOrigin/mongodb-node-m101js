@@ -19,3 +19,5 @@ Now, using the Mongo shell, perform a findOne on the collection called hw1_1 in 
 ANSWER:
 
 Hello from MongoDB
+
+![alt tag](https://github.com/kashifkai28/mongoDB-nodeJS-courseM101JS/blob/master/week1/hw1/answer.PNG)
