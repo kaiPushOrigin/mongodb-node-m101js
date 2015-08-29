@@ -59,4 +59,4 @@ db.students.aggregate( { '$unwind' : '$scores' } , { '$group' : { '_id' : '$_id'
 
 13
 
-![alt tag](https://github.com/kashifkai28/mongoDB-nodeJS-courseM101JS/blob/master/week2/hw3-1/answer.PNG)
+![alt tag](https://github.com/kashifkai28/mongoDB-nodeJS-courseM101JS/blob/master/week3/hw3-1/answer.png)
