@@ -18,7 +18,7 @@ MongoClient.connect('mongodb://localhost:27017/school', function(error, db) {
             if(doc.scores[j].type == 'homework') {
                 if(doc.scores[j].score < min) {
                     min = doc.scores[j].score;
-                    index = j;  // get the index for the loest score
+                    index = j;  // get the index for the lowest score
                 }
             }
         }
