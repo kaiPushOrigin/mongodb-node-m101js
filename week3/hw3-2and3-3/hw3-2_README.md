@@ -6,7 +6,7 @@ If you have any difficulty using MongoProc, here are 2 video lectures showing ho
 
 Download MongoProc
 
-<b>Making your blog accept posts</b>
+<b>Making your blog accept posts</b><br>
 In this homework you will be enhancing the blog project to insert entries into the posts collection. After this, the blog will have the basic functionality. It will allow you to add blog posts with a title, body and tags and have it be added to the posts collection properly.
 
 We have provided the code that creates users and allows you to login (the assignment from last week). Download and unpack the files for this homework from the Download Handout link.
@@ -15,13 +15,13 @@ We have removed parts of the code that uses the Node.js driver to query MongoDB 
 
 In a terminal:
 
-Linux/Mac:
+Linux/Mac:<br>
 <code>
 cd blog/
 grep -rn "hw3.2 TODO" *
 </code>
 
-Windows:
+Windows: <br>
 <code>
 cd blog/
 find /n "hw3.2 TODO" *
@@ -52,13 +52,13 @@ You should not need to touch any other code. The database call that you are goin
 As a reminder, to run your blog, go into the blog directory and type:
 npm install
 node app.js
-To play with the blog you can navigate to the following URLs:
-<code>
-http://localhost:8082/
-http://localhost:8082/signup
-http://localhost:8082/login
-http://localhost:8082/newpost
-</code>
+To play with the blog you can navigate to the following URLs: <br>
+
+http://localhost:8082/  <br>
+http://localhost:8082/signup <br>
+http://localhost:8082/login <br>
+http://localhost:8082/newpost <br>
+
 
 Ok, now it’s time to validate you got it all working.
 
