@@ -140,3 +140,20 @@ db.employees.createIndex( { ‘cell’: 1}, { ‘unique’: true, ‘sparse’: 
 Advantages of sparse Index:
 You can gain greater flexibility with creating Unique indexes.
 The index will be smaller than it would if it were not sparse.
+
+
+INDEX CREATION:
+
+Foreground/Background
+
+Foreground:
+Default in MongoDB
+Relatively fast
+Blocks all readers and writers in the database
+
+Background:
+Slower
+Don’t block all the readers and writers in the database
+Can only have one background creation going on at a time
+Although the database server will continue to take requests, a background index creation still blocks the mongo shell that you are using to create the index
+Syntax: db.students.createIndex( { ‘scores.score’: 1}, {‘background’ : true} );
